@@ -3,7 +3,7 @@
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-color: #0000CD;
   padding: 10px;
   color: var(--text-color);
@@ -30,6 +30,7 @@
 }
 
 @media (min-width: 768px) {
+
   .decorated-zone {
     min-block-size: 96.4vh;
   }
@@ -127,6 +128,7 @@
 }
 
 @media (min-width: 768px) {
+
   .header__theme-menu {
     display: flex;
     padding-block-start: 13px;
@@ -291,7 +293,7 @@
 .gallery__list {
   display: flex;
   flex-direction: column;
-  gap: 7px;  
+  gap: 7px;
   margin-block-start: 10px;
 }
 
@@ -300,6 +302,7 @@
 }
 
 @media (min-width: 768px) {
+
   .section__gallery {
     margin: 61px 0 60px;
   }
@@ -351,6 +354,7 @@
 }
 
 @media (min-width: 768px) {
+
   .footer__heading {
     padding-block-start: 10px;
   }
@@ -393,7 +397,7 @@
 }
 
 .accent-link:focus {
- outline: none; 
+ outline: none;
 }
 
 .accent-link:focus-visible {
