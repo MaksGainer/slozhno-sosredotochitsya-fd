@@ -1,4 +1,6 @@
 html.theme-light {
+  --background-color: #FFC2E6;
+  --accent-title-background-color: #FF8DCB;
   --link-color: #ff8dcb;
   --footer-text-color: #ffc2e6;
   --text-color: #353430;
@@ -17,6 +19,8 @@ html.theme-light {
 @media (prefers-color-scheme: light) {
 
   :root {
+    --background-color: #FFC2E6;
+    --accent-title-background-color: #FF8DCB;
     --link-color: #ff8dcb;
     --footer-text-color: #ffc2e6;
     --text-color: #353430;

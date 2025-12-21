@@ -1,4 +1,6 @@
 html.theme-dark {
+  --background-color: #000028;
+  --accent-title-background-color: #ff0070;
   --link-color: #FF0070;
   --footer-text-color: #db00ff;
   --heading-color: #FF0070;
@@ -9,6 +11,7 @@ html.theme-dark {
   --accent-color: #ff0070;
   --header-heading-color: #db00ff;
   --accent-color-background: #ff0070;
+  --accent-title-background-color: #ff0070;
   --accent-text-color: #000028;
   --cover-image: url(/images/cover-image-dark.png);
 }
@@ -17,6 +20,8 @@ html.theme-dark {
 @media (prefers-color-scheme: dark) {
 
   :root {
+    --background-color: #000028;
+    --accent-title-background-color: #ff0070;
     --link-color: #FF0070;
     --footer-text-color: #db00ff;
     --heading-color: #FF0070;
