@@ -7,6 +7,7 @@
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -277,10 +278,6 @@
     margin-block-start: 20px;
     padding: 20px;
   }
-
-  .how-list-heading {
-    margin-block-end: 20px;
-  }
 }
 
 
@@ -304,6 +301,8 @@
 }
 
 .gallery-img {
+  object-fit: cover;
+  object-position: top;
   inline-size: 100%;
 }
 
@@ -343,8 +342,6 @@
   }
 
   .gallery-img {
-    object-fit: cover;
-    object-position: top;
     block-size: 100%;
   }
 }
@@ -361,13 +358,6 @@
   text-shadow: 2px 2px var(--accent-color);
   font-size: var(--accent-heading-mobile);
   color: var(--footer-text-color);
-}
-
-@media (min-width: 768px) {
-
-  .footer__heading {
-    gap: 20px;
-  }
 }
 
 @media (min-width: 1024px) {
