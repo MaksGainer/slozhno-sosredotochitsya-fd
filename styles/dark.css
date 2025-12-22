@@ -13,7 +13,7 @@ html.theme-dark {
   --accent-color-background: #ff0070;
   --accent-title-background-color: #ff0070;
   --accent-text-color: #000028;
-  --cover-image: url(/images/cover-image-dark.png);
+  --cover-image: url(../images/cover-image-dark.png);
 }
 
 
@@ -33,6 +33,6 @@ html.theme-dark {
     --header-heading-color: #db00ff;
     --accent-color-background: #ff0070;
     --accent-text-color: #000028;
-    --cover-image: url(/images/cover-image-dark.png);
+    --cover-image: url(../images/cover-image-dark.png);
   }
 }

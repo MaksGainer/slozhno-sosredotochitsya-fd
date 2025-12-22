@@ -13,7 +13,7 @@ html.theme-light {
   --header-heading-color: #ffc2e6;
   --accent-color-background: #FF8DCB;
   --accent-text-color: #353430;
-  --cover-image: url(/images/cover-image-light.png);
+  --cover-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,6 +33,6 @@ html.theme-light {
     --header-heading-color: #ffc2e6;
     --accent-color-background: #FF8DCB;
     --accent-text-color: #353430;
-    --cover-image: url(/images/cover-image-light.png);
+    --cover-image: url(../images/cover-image-light.png);
   }
 }
