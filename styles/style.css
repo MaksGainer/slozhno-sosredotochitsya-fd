@@ -22,7 +22,7 @@
 @media (min-width: 768px) {
   
   .header {
-    width: 768px;
+    min-width: 768px;
     min-height: 1024px;
     padding: 20px;
   }
@@ -31,7 +31,7 @@
 @media (min-width: 1024px) {
 
   .header {
-    width: 1024px;
+    min-width: 1024px;
     min-height: 768px;
   }
 }
@@ -106,7 +106,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  width: 70px;
+  min-width: 70px;
 }
 
 .header__theme-menu-list {
@@ -148,8 +148,7 @@
   .header__theme-menu {
     justify-self: center;
     align-self: flex-start;
-    width: 230px;
-    height: 26px;
+    min-width: 230px;
   }
 
   .header__theme-menu-list {
@@ -187,7 +186,7 @@
 .header__text {
   justify-self: end;
   line-height: 130%;
-  width: 355px;
+  min-width: 355px;
 }
 
 @media (min-width: 768px) {
@@ -397,6 +396,7 @@
 .paragraph-text {
   padding: 10px 0 20px;
   line-height: 130%;
+  color: var(--text-color)
 }
 
 .accented-text-bold {
