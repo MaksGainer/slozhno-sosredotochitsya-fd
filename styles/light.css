@@ -1,4 +1,5 @@
 html.theme-light {
+  --button-active-color: #353430;
   --background-color: #FFF1F7;
   --accent-title-background-color: #FF8DCB;
   --link-color: #ff8dcb;
@@ -7,6 +8,7 @@ html.theme-light {
   --heading-color: #353430;
   --decorative-rec-element-color: #353430;
   --decorative-rec-color: transparent;
+  --button-active-color: #353430;
   --menu-button-color: #353430;
   --menu-button-color-hover: #32312d66;
   --accent-color: #ff8dcb;
