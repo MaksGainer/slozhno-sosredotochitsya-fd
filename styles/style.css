@@ -246,16 +246,16 @@
   margin-block-end: 27px;
 }
 
-.gallery-list { 
-  display: flex; 
+.gallery-list {
+  display: flex;
   flex-direction: column;
   margin-top: 10px;
   gap: 5px;
 } 
  
-.gallery-img { 
-  object-fit: cover; 
-  object-position: top; 
+.gallery-img {
+  object-fit: cover;
+  object-position: top;
   width: 100%;
 }
 
