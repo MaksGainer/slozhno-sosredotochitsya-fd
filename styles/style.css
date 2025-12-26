@@ -216,7 +216,7 @@
   line-height: 23.4px;
   font-size: 18px;
   font-weight: 700;
-  color: var(--accent-color);
+  color: var(--heading-color);
 }
 
 .card-text {
